@@ -69,7 +69,7 @@ In here i will show you how to create a (vs)code server accessible over ssh or h
 1. Deposit the private key file in
    `C:\<Users in your language>\<Your username>\.ssh\`
 2. Edit your ssh config file located at
-   `code C:\<Users in your language>\<Your username>\.ssh\config`
+   `C:\<Users in your language>\<Your username>\.ssh\config`
 3. Fetch your instance`s public IP from Oracle Cloud Infrastructure ![fetchPublicIP](/media/fetchPublicIP.png)
 4. Add the follwing lines to your config
 
