@@ -21,7 +21,7 @@ In here i will show you how to create a (vs)code server accessible over ssh or h
 
 - Credit Card (will not be charged)
 - free OCI Account registration (takes 5 min)
-- Depending on how familiar you are with these steps, it will take about 30min to 5hours of time to recreate those steps
+- Depending on how familiar you are with these steps, it will take about 30min to 1hour of time to recreate those steps
 
 ## Step 1: Create Compute Instance
 
