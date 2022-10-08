@@ -64,6 +64,24 @@ In here i will show you how to create a (vs)code server accessible over ssh or h
 
 <details>
   <summary>For Windows users</summary>
+
+1. Deposit the private key file in
+   `C:\<Users in your language>\<Your username>\.ssh\`
+2. Edit your ssh config file located at
+   `code C:\<Users in your language>\<Your username>\.ssh\config`
+3. Fetch your instances public IP from Oracle Cloud Infrastructure ![fetchPublicIP](/media/fetchPublicIP.png)
+4. Add the follwing lines to your config
+
+```
+Host *callMeWhatever*
+  HostName *insert ip here*
+  User ubuntu
+  IdentityFile C:\<Users in your language>\<Your username>\.ssh\*keyFileName*.key
+```
+
+5. Connect to your host like this:
+![selfSignedCertificate](/media/windowsSSh.png)
+You will need to type _yes_ in order to accept, that your VM is currently using a self signed certificate to identify itself. At this point you should be connected to your instance.
 </details>
 
 ## Step 3: Setup VSCode over SSH
