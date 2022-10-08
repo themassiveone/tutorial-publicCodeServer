@@ -6,12 +6,12 @@
 
 - VM Hosting
 - Ssh Configuration on Macos
+- Ssh Configuration on Windows
 - VsCode over SSH
 
 ##### Incomplete
 
 - Http vsCode using [code-server](https://github.com/coder/code-server)
-- Ssh Configuration on Windows
 
 ## About
 
