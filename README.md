@@ -80,7 +80,7 @@ Host *callMeWhatever*
 ```
 
 5. Connect to your host like this:
-![selfSignedCertificate](/media/windowsSSh.png)
+![selfSignedCertificate](/media/WindowsSSh.png)
 You will need to type _yes_ in order to accept, that your VM is currently using a self signed certificate to identify itself. At this point you should be connected to your instance.
 </details>
 
